@@ -2,7 +2,6 @@
 <table>
     <tr>
         <td colspan="2">Before add Edge</td>
-        
     </tr>
     <tr>
         <td> data1 </td>
