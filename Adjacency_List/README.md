@@ -3,8 +3,8 @@
 
 <table>
     <tr>
-        <td>Before add Edge</td>
-        <td>After add Edge</td>
+        <td>Before add Edges</td>
+        <td>After add Edges</td>
     </tr>
     <tr>
         <td> <img src="https://user-images.githubusercontent.com/93032154/143779582-6b18c1a6-b9a3-48f8-b32c-4e24591bc90f.png"> </td>
