@@ -55,7 +55,7 @@ public class Graph {
 		}
 		else {
 			visited[src] = true;
-			System.out.println(nodes.get(src).data + " = visited");
+			System.out.println(nodes.get(src).data + "is visited");
 		}
 		
 		for(int i = 0; i < matrix[src].length; i++) {
@@ -63,6 +63,6 @@ public class Graph {
 				dFSHelper(i, visited);
 			}
 		}
-		return;
+		return; // in case the row consist zeros
 	}
 }
