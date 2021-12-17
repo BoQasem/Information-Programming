@@ -6,7 +6,6 @@ public class Graph {
 	int[][] matrix;
 	
 	Graph(int size){
-		
 		nodes = new ArrayList<>();
 		matrix = new int[size][size];
 	}
@@ -44,25 +43,22 @@ public class Graph {
 		}
 		System.out.println();
 	}	
+	private void dFSHelper(int src, boolean[] visited) {
+		if(visited[src])
+			return; 
+		else{
+			visited[src] = true;
+			System.out.println(nodes.get(src).data + "is visited"); 
+			for(int i=0; i<matrix.length; i++){
+				if(matrix[src][i] == 1)
+					dFSHelper(i, visited); 
+			} 
+		return; // in case the row consist zeros 
+		}
+	}
 	public void depthFirstSearch(int src) {
-		boolean[] visited = new boolean[nodes.size()];
+		boolean[] visited = new boolean[nodes.size()]; 
 		dFSHelper(src, visited);
 	}
-	private void dFSHelper(int src, boolean[] visited) {
-		
-		if(visited[src]) {
-			return;
-		}
-		else {
-			visited[src] = true;
-			System.out.println(nodes.get(src).data + "is visited");
-		}
-		
-		for(int i = 0; i < matrix[src].length; i++) {
-			if(matrix[src][i] == 1) {
-				dFSHelper(i, visited);
-			}
-		}
-		return; // in case the row consist zeros
-	}
+	
 }
