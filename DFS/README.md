@@ -2,8 +2,8 @@
 
 <table>
     <tr>
-        <td>in case 1</td>
-        <td>in case 2</td>
+        <td>in case(1) started from A</td>
+        <td>in case(2) started from A</td>
     </tr>
     <tr>
         <td><img src="https://user-images.githubusercontent.com/93032154/143779805-682229ac-f7c6-47c3-bcf7-4217b752b89b.png"> </td>
