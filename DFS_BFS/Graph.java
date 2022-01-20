@@ -2,13 +2,13 @@ import java.util.*;
 
 public class Graph {
 	
-	ArrayList<Node> nodes;
-	int[][] matrix;
+    ArrayList<Node> nodes;
+    int[][] matrix;
 	
-	Graph(int size){
-	    nodes = new ArrayList<>();
-		matrix = new int[size][size];
-	}
+    Graph(int size){
+        nodes = new ArrayList<>();
+	matrix = new int[size][size];
+    }
 	
 	void addNode(Node node) {
 		nodes.add(node);
