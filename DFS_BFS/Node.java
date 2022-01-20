@@ -1,8 +1,8 @@
 public class Node {
 
-	char data;
+    char data;
 	
-	Node(char data){
-	    this.data = data;
-	}
+    Node(char data){
+        this.data = data;
+    }
 }
