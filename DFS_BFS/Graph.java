@@ -10,20 +10,20 @@ public class Graph {
 	matrix = new int[size][size];
     }
 	
-	void addNode(Node node) {
-		nodes.add(node);
-	}	
+    void addNode(Node node) {
+        nodes.add(node);
+    }	
 	
-	void addEdge(int src, int dst) {	
-		matrix[src][dst] = 1;
-	}	
+    void addEdge(int src, int dst) {	
+        matrix[src][dst] = 1;
+    }	
 	
-	boolean checkEdge(int src, int dst) {	
-		if(matrix[src][dst] == 1) 
-			return true;
-		else 
-			return false;
-	}	
+    boolean checkEdge(int src, int dst) {	
+	if(matrix[src][dst] == 1) 
+	    return true;
+	else 
+	    return false;
+    }
 	
 	void print() {	
 		System.out.print("  ");
