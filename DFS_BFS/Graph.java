@@ -6,7 +6,7 @@ public class Graph {
 	int[][] matrix;
 	
 	Graph(int size){
-		nodes = new ArrayList<>();
+	    nodes = new ArrayList<>();
 		matrix = new int[size][size];
 	}
 	
