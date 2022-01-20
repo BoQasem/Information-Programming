@@ -33,7 +33,7 @@
         <td> <img src="https://user-images.githubusercontent.com/93032154/143780358-febfacc3-8d89-4fac-91cd-76af95fc6a4b.png"> </td>
     </tr>
     <tr>
-        <td> <img src="https://user-images.githubusercontent.com/93032154/150240823-f0bc7b06-20c1-44f5-b485-e2fe6721841e.png"> </td>
+        <td> <img src="https://user-images.githubusercontent.com/93032154/150241154-44705371-2957-49c3-b52a-94d8ec64e627.png"> </td>
     </tr>
 </table>    
 
